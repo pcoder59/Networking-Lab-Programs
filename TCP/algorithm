@@ -7,7 +7,8 @@ Step 5: Start Listening on TCP Socket
 Step 6: Receive Client Connection
 Step 7: Read Message from Client Socket
 Step 8: Write A Message to Client
-Step 9: Stop
+Step 9: Close the TCP Socket
+Step 10: Stop
 
 Client:
 Step 1: Start
@@ -17,4 +18,5 @@ Step 4: Bind TCP Socket to Port
 Step 5: Connect to Server using TCP Socket
 Step 6: Send Message to Server
 Step 7: Receive Message from Server
-Step 8: Stop
+Step 8: Close the TCP Socket
+Step 9: Stop

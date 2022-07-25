@@ -1,0 +1,19 @@
+Server
+Step 1: Start
+Step 2: Create a UDP Socket
+Step 3: Enter a Port Number
+Step 4: Bind UDP Socket to Port
+Step 5: Receive Message From Client
+Step 6: Send Message to Client
+Step 7: Close the UDP Socket
+Step 8: Stop
+
+Client
+Step 1: Start
+Step 2: Create a UDP Socket
+Step 3: Enter a Port Number
+Step 4: Bind UDP Socket to Port
+Step 5: Send Message to Server
+Step 6: Receive Message from Server
+Step 7: Close the UDP Socket
+Step 8: Stop
