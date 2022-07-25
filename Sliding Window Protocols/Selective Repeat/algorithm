@@ -1,0 +1,9 @@
+Step 1: Start
+Step 2: Enter Number of Packets to be sent
+Step 3: Enter Data for Each Packet
+Step 4: Check Acknowledgement of Each Packet
+Step 5: If Acknowledgement is Negative, Print the Packet
+Step 6: Resend the Packet
+Step 7: Print Received Packet
+Step 8: Print "All Packets Received"
+Step 9: Stop
