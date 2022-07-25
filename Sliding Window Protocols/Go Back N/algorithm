@@ -1,0 +1,40 @@
+Server
+Step 1: Start
+Step 2: Create a UDP Socket
+Step 3: Enter Port Number
+Step 4: Bind Port to UDP Socket
+Step 5: Obtain Window Size from Client
+Step 6: Obtain Total Packets from Network Layer
+Step 7: Send Total Packets to the Client
+Step 8: Set i = 0, frame = 0
+Step 9: While i is less than Total Packets, repeat steps 10 to 16
+Step 10: Store packets from i to i + windowsize or upto total - 1 in frame to be sent
+Step 11: Send frame to Client
+Step 12: Receive Acknowledgement from Client
+Step 13: Check Acknowledgement. If a packet has negative Acknowledgement, go to step 14. Else go to step 16
+Step 14: Print Negative Acknowledgement Received for Packet
+Step 15: Set i as Packet number of the negative packet. Increment Frame. Go to step 9
+Step 16: Print "All Packets in Frame Received", set i as last packet + 1, increment frame. Go to step 9
+Step 17: Print "Transmission Complete"
+Step 18: Close UDP Socket
+Step 19: Stop
+
+Client
+Step 1: Start
+Step 2: Create a UDP Socket
+Step 3: Enter Port Number
+Step 4: Bind Port to UDP Socket
+Step 5: Enter Window Size
+Step 6: Send Window Size to Server
+Step 7: Receive Total Packets from Server
+Step 8: Set i = 0, frame = 0
+Step 9: While i is less than Total Packets, repeat steps 10 to 15
+Step 10: Print Expected Frame and Packets
+Step 11: Receive Packets from Server
+Step 12: Print a Received Packet
+Step 13: Print Received Packets
+Step 14: Send Acknowledgement to Server
+Step 15: If Acknowledgement is negative, store i as packet, increment frame and go to step 9. Else, set i last packet + 1, increment frame and go to step 9
+Step 16: Print "Transmission Complete"
+Step 17: Close UDP Socket
+Step 18: Stop
