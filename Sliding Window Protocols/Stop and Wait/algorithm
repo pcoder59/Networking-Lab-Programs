@@ -1,0 +1,39 @@
+Server
+Step 1: Start
+Step 2: Create a UDP Socket
+Step 3: Enter Port Number
+Step 4: Bind Port to UDP Socket
+Step 5: Initialize frame_id of first frame to 0
+Step 6: Receive number of frames from client
+Step 7: While frame_id is less than number of frames, repeate steps 8 to 13
+Step 8: Receive frame from client
+Step 9: If Received frame is valid, go to step 10. Else, go to step 13
+Step 10: Display Received frame
+Step 11: Send frame with sequence number equal to frame_id of Received frame and ack = sequence number + 1
+Step 12: Print "Ack Sent", increment frame_id and go to step 7
+Step 13: Print "Ack Not Received", and go to step 7
+Step 14: Close UDP Socket
+Step 15: Stop
+
+client
+Step 1: Start
+Step 2: Create a UDP Socket
+Step 3: Enter Port Number
+Step 4: Bind Port to UDP Socket
+Step 5: Initialize frame_id of first frame to 0
+Step 6: Set Ack to 1
+Step 7: Enter Number of frames
+Step 8: Send Number of frames to Server
+Step 9: While frame_id is less than number of frames, repeat steps 10 to 16
+Step 10: If Ack is 1, go to step 11. Else go to step 13
+Step 11: Set sequence number of frame to be sent as frame_id 
+Step 12: Enter data for frame
+Step 13: Send the frame to Server
+Step 14: Receive frame from Server
+Step 12: If Received frame is valid, go to step 13. Else go to step 15
+Step 13: Print "Ack Received"
+Step 14: Set Ack to 1, increment frame_id and go to step 9
+Step 15: Print "Ack Not Received"
+Step 16: Set Ack to 0 and go to step 10
+Step 17: Close UDP Socket
+Step 18: Stop
