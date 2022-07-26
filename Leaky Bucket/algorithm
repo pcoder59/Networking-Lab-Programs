@@ -1,0 +1,14 @@
+Step 1: Start
+Step 2: Enter Bucket Size, Number of Incoming Packets and Outgoing Rate
+Step 3: Initialize Store to 0
+Step 4: Repeat steps 5 to 13 for Number of Incoming Packets
+Step 5: Enter Incoming Size
+Step 6: If Incoming Size less than Bucket Size - Store, go to step 7. Else go to step 9
+Step 7: Add Incoming to Store
+Step 8: Print Store and Bucket Size. Go to Step 12
+Step 9: Print Dropped Packets
+Step 10: Print Store and Bucket Size
+Step 11: Set Store as Bucket Size
+Step 12: Set Store as Store - Outgoing
+Step 13: Print Store and Bucket Size after Outgoing
+Step 14: Stop
