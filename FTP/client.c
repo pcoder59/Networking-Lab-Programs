@@ -23,7 +23,7 @@ int main() {
     fp = fopen(newfile, "w");
     send(socket_tcp, filename, sizeof(filename), 0);
     recv(socket_tcp, contents, sizeof(contents), 0);
-    if(strcmp("Error", newfile) == 0) {
+    if(strcmp("Error", contents) == 0) {
         printf("Error");
     } else {
         printf("Contents Received: %s\n", contents);
