@@ -1,0 +1,30 @@
+Server
+Step 1: Start
+Step 2: Create a TCP Socket
+Step 3: Enter Port Number
+Step 4: Bind Port to TCP Socket
+Step 5: Accept Connection From Client
+Step 6: Receive File Name From Client
+Step 7: Open File
+Step 8: If File Is Opened, go to Step 9. Else Go to Step 11
+Step 9: Read File
+Step 10: If file is read, Send File Contents to Client and Go to Step 13. Else go to step 12
+Step 12: Send Error
+Step 13: Stop
+
+Client
+Step 1: Start
+Step 2: Create a TCP Socket
+Step 3: Enter Port Number
+Step 4: Bind Port to TCP Socket
+Step 5: Connect to Server
+Step 6: Enter Existing File Name
+Step 7: Enter New File Name
+Step 8: Open New File
+Step 9: Send Existing File Name to Server
+Step 10: Receive Contents from Server
+Step 11: If Receive is Error Go to Step 14
+Step 12: Copy Contents to New File
+Step 13: Print Received Contents and Go to Step 15
+Step 14: Print "Error"
+Step 15: Stop
