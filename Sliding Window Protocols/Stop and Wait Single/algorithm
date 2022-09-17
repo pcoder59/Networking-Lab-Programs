@@ -1,0 +1,8 @@
+Step 1: Start
+Step 2: Enter Number of Frames
+Step 3: Send Frames one by one and go to step 4. When all frames are sent go to step 7
+Step 4: Wait for Acknowledgement. If Yes, go to Step 5. Else Go to Step 6
+Step 5: Print Acknowledgement Received For Frame. Send next frame
+Step 6: Print Acknowledgement Missing and retransmit the frame
+Step 7: Print end of Stop and Wait Protocol
+Step 8: Stop

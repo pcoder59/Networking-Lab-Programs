@@ -1,0 +1,12 @@
+Step 1: Start
+Step 2: Enter number of Nodes
+Step 3: Enter the cost Matrix
+Step 4: Repeat steps 5 and 6 for each node and go to Step 7
+Step 5: Initialize distance to cost Matrix
+Step 6: Set node from which distance is calculated
+Step 7: Repeat Steps 8 - 10 for each Nodes and go to step 11
+Step 8: Choose an arbitary vertex k
+Step 9: Add Distance k to Node j
+Step 10: If Distance is less than current distance, set distance from k as new distance and node from which distance is calculated as k
+Step 11: Print Distance to every node
+Step 12: Stop
