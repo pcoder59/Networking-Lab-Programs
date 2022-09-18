@@ -1,0 +1,52 @@
+Server
+Step 1: Start
+Step 2: Create a UDP Socket
+Step 3: Enter Port Number
+Step 4: Bind Port to UDP Socket
+Step 5: Receive SMTP Request Message from Client
+Step 6: Print SMTP Request Message
+Step 7: Send Name of Server to Client
+Step 8: Receive Name of Client from Client
+Step 9: Print Name of Client
+Step 10: Send Hello Name of Client to Client
+Step 11: Receive FROM address from Client
+Step 12: Print FROM address
+Step 13: Send Hello FROM address with sender ok to Client
+Step 14: Receive TO address from Client
+Step 15: Print TO address
+Step 16: Send Hello TO address with receipient ok to Client
+Step 17: Receive Email from Client
+Step 18: Print Email
+Step 19: Send Message Accepted For Delivery to Client
+Step 20: Receive QUIT From Client
+Step 21: Send Server Mail Server CLosing Connection
+Step 22: Close UDP Socket
+Step 23: Stop
+
+Client
+Step 1: Start
+Step 2: Create a UDP Socket
+Step 3: Enter Port Number
+Step 4: Bind Port to UDP Socket
+Step 5: Send SMTP Request Message to Server
+Step 6: Receive Name of Server form Server
+Step 7: Print Name of Server
+Step 8: Send Name of Client to Server
+Step 9: Receive Hello Message from Server
+Step 10: Print Hello Message
+Step 11: Enter From Address
+Step 12: Send From Address to Server
+Step 13: Receive OK from Server
+Step 14: Print OK
+Step 15: Enter To Address
+Step 16: Send To Address to Server
+Step 17: Receive Ok From Server
+Step 18: Print OK
+Step 19: Send Email to Server
+Step 20: Receive Accepted Message from Server
+Step 21: Print Accepted
+Step 22: Send QUIT to Server
+Step 23: Receive Closing Message from Server
+Step 24: Print Closing Message
+Step 25: Close UDP Socket
+Step 26: Stop
