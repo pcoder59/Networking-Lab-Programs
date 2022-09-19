@@ -1,0 +1,25 @@
+Server
+Step 1: Start
+Step 2: Create a TCP Socket
+Step 3: Enter Port Number
+Step 4: Bind Port to TCP Socket
+Step 5: Accept Connection from Client
+Step 6: Read Number from Client
+Step 7: Find Factorial of The Number
+Step 8: Write Factorial of Number to The Client
+Step 9: Print Factorial Successfully Sent
+Step 10: Close TCP Socket
+Step 11: Stop
+
+Client
+Step 1: Start
+Step 2: Create a TCP Socket
+Step 3: Enter Port Number
+Step 4: Bind Port to TCP Socket
+Step 5: Connect to Server
+Step 6: Enter Number
+Step 7: Send Number to Server
+Step 8: Receive Factorial from the Server
+Step 9: Print Received Factorial
+Step 10: Close TCP Socket
+Step 11: Stop
