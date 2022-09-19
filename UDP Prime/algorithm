@@ -1,0 +1,23 @@
+Server
+Step 1: Start
+Step 2: Create a UDP Socket
+Step 3: Enter Port Number
+Step 4: Bind Port to UDP Socket
+Step 5: Receive a Number From Client
+Step 6: Check Wheather the Number is Prime or Not
+Step 7: Send Result to The Client
+Step 8: Print Result Sent to Client
+Step 9: Close UDP Socket
+Step 10: Stop
+
+Client
+Step 1: Start
+Step 2: Create a UDP Socket
+Step 3: Enter Port Number
+Step 4: Bind Port to UDP Socket
+Step 5: Enter a Number
+Step 6: Send Number to Server
+Step 7: Receive Result From Server
+Step 8: Print Result
+Step 9: Close UDP Socket
+Step 10: Stop
