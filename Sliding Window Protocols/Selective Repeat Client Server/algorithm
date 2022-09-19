@@ -1,0 +1,37 @@
+Server
+Step 1: Start
+Step 2: Create a UDP Socket
+Step 3: Enter Port Number
+Step 4: Bind Port to UDP Socket
+Step 5: Receive Number of Frames from Client
+Step 6: Enter Data For Each Frame
+Step 7: Receive Window Size from Client
+Step 8: Set i to 0
+Step 9: While i < Number of Frames, Repeat Step 10
+Step 10: For Each frame Within the Window Size Repeat Steps 11 to 13
+Step 11: Send Frames to Client
+Step 12: Check Acknowledgement of Each Frame
+Step 13: If all Frames have positive Acknowledgement, Go to Step 14. Else Resend Frames With negative Acknowledgement.
+Step 14: Increment i by Window Size
+Step 15: Print All Frames in Window Sent Successfully
+Step 16: Print All Frames Sent Successfully
+Step 17: Stop
+
+Client
+Step 1: Start
+Step 2: Create a UDP Socket
+Step 3: Enter Port Number
+Step 4: Bind Port to UDP Socket
+Step 5: Enter Number of Frames
+Step 6: Send Number of Frames to Server
+Step 7: Enter Window Size
+Step 8: Send Window Size to Server
+Step 9: Set i to 0
+Step 10: While i < Number of Frames, Repeat Steps 11 to 14
+Step 11: Receive All Frames in Window
+Step 12: Acknowledge Each Frame
+Step 13: Wait for Retransmission of Any negative Frames. Then Go to Step 14 Once all Frames Acknowledged
+Step 14: Increment i by Window Size
+Step 15: Print All Frames In Window Received Successfully
+Step 16: Print All Frames Received Successfully
+Step 17: Stop
