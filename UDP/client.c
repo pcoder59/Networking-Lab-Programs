@@ -15,6 +15,7 @@ int main() {
     serveraddr.sin_family = AF_INET;
     serveraddr.sin_port = htons(port);
     serveraddr.sin_addr.s_addr = INADDR_ANY;
+    bind(socket_udp, (struct sockaddr *)&serveraddr, sizeof(serveraddr));
     printf("Sending Message!\n");
     sendto(socket_udp, "HI I AM CLIENT", sizeof("HI I AM CLIENT"), 0, (struct sockaddr *)&serveraddr, sizeof(serveraddr));
     recvfrom(socket_udp, message, sizeof(message), 0, (struct sockaddr *)&serveraddr, &len);
