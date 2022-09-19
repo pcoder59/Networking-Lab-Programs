@@ -12,7 +12,6 @@ int main() {
     serveraddr.sin_port = htons(port);
     serveraddr.sin_addr.s_addr = INADDR_ANY;
     printf("Binding...\n");
-    bind(socket_tcp, (struct sockaddr *)&serveraddr, sizeof(serveraddr));
     connect(socket_tcp, (struct sockaddr *)&serveraddr, sizeof(serveraddr));
     printf("Enter Number: ");
     scanf("%d", &n);
