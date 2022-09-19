@@ -13,8 +13,6 @@ int main() {
     serveraddr.sin_family = AF_INET;
     serveraddr.sin_port = htons(port);
     serveraddr.sin_addr.s_addr = INADDR_ANY;
-    printf("Binding to Port!\n");
-    bind(client_tcp, (struct sockaddr *)&serveraddr, sizeof(serveraddr));
     printf("Connecting to TCP Server!\n");
     connect(client_tcp, (struct sockaddr *)&serveraddr, sizeof(serveraddr));
     printf("Sending Message!\n");
